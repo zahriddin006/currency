@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head{
+  height: 100vh;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+ol{
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  background-color: aquamarine;
+  overflow: auto;
+  margin-right: 120px; 
+  list-style: none;
+}
+p {
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+}
+input{
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #b6b1b1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9e9e9e;
+}
