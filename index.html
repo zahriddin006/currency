@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+  <div class="head">
+    <h1 class="text-center pt-5 text-white fw-bold">1 Usd = 11,257 Uzs</h1>
+
+    <form action="#" method="post"> 
+      <div class="form-inner d-flex mt-5 justify-content-center">
+  
+        <div class="usd-currensy-box py-2 px-4">
+          <h3 class="usd-class-topic text-white fs-2" id="usd-theme">Usd</h3>
+          <input class="rounded-pill bg-light ps-3 border-0" type="text" id="usd-input" placeholder="Enter funds.." required>
+        </div>
+  
+        <div class="change-btn-box text-center mx-5">
+          <button class="mt-5 border-0 py-1 px-3 bg-transparent " type="button" id="change-btn">
+            <img src="./img/arrow.png" alt="arrow" width="24" height="24">
+          </button>
+        </div>
+  
+        <div class="uzs-currensy-box py-2 px-4">
+          <h3 class="usd-class-topic text-white fs-2" id="uzs-theme">Uzs</h3>
+          <input class="rounded-pill bg-light ps-2 border-0" type="text" id="uzs-input" disabled>
+        </div>
+      </div>
+    </form>
+    
+    <div class="d-flex justify-content-center mt-4 align-items-start">
+      <ol class="p-3 rounded-3" id="history-result">
+        <h3 class="text-white text-center me-3">History:</h3>
+      </ol>
+  
+      <button class="border-0 bg-info fs-4 text-white rounded-pill py-1 px-3" type="button" id="result-btn">
+        Result
+      </button>
+    </div>
+  
+  </div>
+  
+  <!-- Bootstrap js -->
+  <link rel="stylesheet" href="./bootstrap/js/bootstrap.bundle.min.js" />
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
